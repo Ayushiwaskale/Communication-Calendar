@@ -1,0 +1,57 @@
+/* General page styling */
+.analytics-page {
+  background-color: #778DA9; /* Background color of the page */
+  color: black; /* Text color */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Section styling */
+.analytics-page section {
+  background-color: #E0E1DD; /* Background color for boxes */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.analytics-page h1 {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.analytics-page h2 {
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.export-button {
+  background-color: black;
+  color: #E0E1DD;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.export-button:hover {
+  background-color: #5C677D;
+}
+
+/* Activity Log */
+.activity-log {
+  background-color: #E0E1DD;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.activity-log ul {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-log li {
+  margin: 5px 0;
+}

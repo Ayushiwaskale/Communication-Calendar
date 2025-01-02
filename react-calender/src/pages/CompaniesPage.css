@@ -1,0 +1,54 @@
+/* General page styling */
+.companies {
+  padding: 20px;
+  background-color: #778DA9; /* Page background color */
+  color: black; /* Text color */
+}
+
+/* Company form styling */
+.company-form input,
+.company-form select,
+.company-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #E0E1DD; /* Box background color */
+  color: black; /* Text color */
+}
+
+/* Submit button styling */
+.company-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.company-form button:hover {
+  background-color: #218838;
+}
+
+/* Company list styling */
+.company-list {
+  margin-top: 20px;
+}
+
+/* Individual company card styling */
+.company-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #E0E1DD; /* Box background color */
+  margin-bottom: 15px;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.company-details div {
+  margin-top: 5px;
+}

@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Center items vertically */
+  background-color: #2c3e50;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  flex-grow: 1; /* Push nav items to the right */
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  justify-content: center; /* Center the nav links */
+  flex-grow: 2; align-items: center;/* Allow links to adjust properly */
+  margin: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Notification Icon */
+.notification-icon {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  margin-left: auto; /* Push the notification icon to the far right */
+  color: white;
+}
+
+/* Notification Popup */
+.notification-popup {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification-popup h3 {
+  margin-top: 0;
+}
+
+.notification-popup ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-popup li {
+  margin-bottom: 8px;
+}
+
+/* Notification Types */
+.notification {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.overdue {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.due-today {
+  background-color: #f39c12;
+  color: white;
+}

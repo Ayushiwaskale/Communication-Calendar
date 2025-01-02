@@ -1,0 +1,128 @@
+/* General page styling */
+.calendar-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #778DA9; /* Page background color */
+  color: black; /* Text color */
+}
+/* Adjust calendar size */
+/* Make calendar a larger square */
+.react-calendar {
+  width: 500px; /* Set width */
+  height: 330px; /* Set height to match width */
+  margin: 20px auto; /* Center the calendar */
+  font-size: 1.2rem; /* Optional: Increase font size for readability */
+}
+
+
+/* Calendar box styling */
+.calendar-box {
+  display: flex; /* Center the calendar horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50;
+  border-radius: 10px;
+  padding: 10px; /* Adjust padding to fit the calendar */
+  margin: 0 auto;
+  width: fit-content; /* Adjust width to fit the calendar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Events box styling */
+.events-box {
+  margin-top: 20px;
+  background-color: #E0E1DD;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.events-box h2 {
+  margin-bottom: 20px; /* Add more space below the header */
+}
+
+.no-events {
+  color: black; /* Text color for "No events" */
+  margin-bottom: 20px; /* Add space between 'No events' and 'Add Event' button */
+}
+
+/* Individual event item */
+.event-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-item strong {
+  color: #007BFF;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+/* Add event form */
+.add-event-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #E0E1DD; /* Box background color */
+}
+
+.add-event-form label {
+  display: block;
+  margin-bottom: 15px; /* Add spacing between labels and inputs */
+}
+
+.add-event-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px; /* Add space between label and input */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.add-button, .add-event-button, .cancel-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button, .add-event-button {
+  background-color: #007BFF;
+  color: white;
+  margin-top: 20px; /* Add space above the button */
+}
+
+.add-button:hover, .add-event-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  margin-left: 10px;
+  background-color: #ddd;
+  color: black;
+}
+
+.cancel-button:hover {
+  background-color: #bbb;
+}
